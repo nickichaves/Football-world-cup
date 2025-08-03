@@ -30,7 +30,7 @@ FIFA is a database system designed to manage the FIFA World Cup. It handles the 
     ```bash
     cd ProjetoBD2223
     
-3. ** Set Up the Database:**
+3. **Set Up the Database:**
 
    Create a database in your preferred DBMS (e.g., PostgreSQL, MySQL).
    Run the SQL scripts from the scripts/ folder to create tables and relationships

@@ -27,5 +27,28 @@ FIFA is a database system designed to manage the FIFA World Cup. It handles the 
    git clone <URL_DO_REPO>
 
 2. **Navigate to the Project Directory:**
+    ```bash
+    cd ProjetoBD2223
+    
+3. ** Set Up the Database:**
+   Create a database in your preferred DBMS (e.g., PostgreSQL, MySQL).
+   Run the SQL scripts from the scripts/ folder to create tables and relationships
 
-cd ProjetoBD2223
+4. **Load sample data (optional):**
+    ```bash
+   psql -U <user> -d <database> -f data/populate.sql
+    
+5. **Start Managing:**
+   Insert World Cup editions, federations, teams, and players.
+   Record matches, player convocations, and statistics.
+   
+**REQUIREMENTS:**
+   SQL-compatible Database Management System (PostgreSQL / MySQL recommended).
+   Basic knowledge of database setup and SQL script execution.
+
+
+**LICENSE** 
+[MIT License](LICENSE)
+
+:)
+

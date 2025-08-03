@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.3" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="Bouml" exporterVersion="5.1"/>
+	<uml:Model xmi:type="uml:Model" xmi:id="themodel" name="projeto">
+		<packagedElement xmi:type="uml:Package" xmi:id="BOUML_0x81_22" name ="projeto">
+			<xmi:Extension extender="Bouml">
+				<taggedValue tag="gxmi gen extensions" value="yes"/>
+				<taggedValue tag="gxmi comment exporter" value="no"/>
+				<taggedValue tag="gxmi primitive type" value="no"/>
+				<taggedValue tag="gxmi umlversion" value="23"/>
+				<taggedValue tag="gxmi gen eclipse" value="no"/>
+				<taggedValue tag="gxmi path" value="C:/Users/gonca/Desktop/bouml.xmi"/>
+				<taggedValue tag="gxmi vis prefix" value="no"/>
+				<taggedValue tag="gxmi no model" value="no"/>
+				<taggedValue tag="gxmi linefeed" value="no"/>
+				<taggedValue tag="gxmi gen views" value="no"/>
+				<taggedValue tag="gxmi pk prefix" value="no"/>
+				<taggedValue tag="gxmi encoding" value="UTF-8"/>
+			</xmi:Extension>
+			<packagedElement xmi:type="uml:Package" xmi:id="BOUML_0x1f416_22" name ="FIFA_1">
+				<packagedElement xmi:type="uml:AssociationClass" name="Estat_Jogador" xmi:id="BOUML_0x21945_4" visibility="package">
+					<memberEnd xmi:idref="BOUML_0x1f402_0"/>
+					<memberEnd xmi:idref="BOUML_0x1f482_0"/>
+					<ownedAttribute xmi:type="uml:Property" name="num_golos" xmi:id="BOUML_0x225c5_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="num_assistencias" xmi:id="BOUML_0x22645_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="jogos_sem_sofrer_golos" xmi:id="BOUML_0x226c5_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Patrocinador" xmi:id="BOUML_0x21845_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="nome" xmi:id="BOUML_0x22545_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x20e96_0" visibility="private" association="BOUML_ASSOC_0x20e16_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x21745_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x20e96_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x20e96_0" value="*"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Comitiva" xmi:id="BOUML_0x21745_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="sigla" xmi:id="BOUML_0x22445_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_1"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="mascote" xmi:id="BOUML_0x224c5_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x21345_0" visibility="private" association="BOUML_ASSOC_0x212c5_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x21045_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x21345_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x21345_0" value="*"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x224c5_0" visibility="private" association="BOUML_ASSOC_0x22445_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x216c5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x224c5_0" value="1"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x224c5_0" value="1"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x22545_0" visibility="private" association="BOUML_ASSOC_0x22545_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x20dc5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x22545_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x22545_0" value="*"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x20e16_0" visibility="private" association="BOUML_ASSOC_0x20e16_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x21845_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x20e16_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x20e16_0" value="*"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x22a96_0" visibility="private" association="BOUML_ASSOC_0x22a16_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x1f416_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x22a96_0" value="1"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x22a96_0" value="1"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Pais" xmi:id="BOUML_0x216c5_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="nome_pais" xmi:id="BOUML_0x22245_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="num_habitantes" xmi:id="BOUML_0x222c5_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="num_federados" xmi:id="BOUML_0x22345_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="nome_federacao" xmi:id="BOUML_0x223c5_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x21245_0" visibility="private" association="BOUML_ASSOC_0x211c5_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x21045_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x21245_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x21245_0" value="*"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x223c5_0" visibility="private" association="BOUML_ASSOC_0x22345_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x21645_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x223c5_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x223c5_0" value="*"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x22445_0" visibility="private" association="BOUML_ASSOC_0x22445_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x21745_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x22445_0" value="0"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x22445_0" value="1"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x1f496_0" visibility="private" association="BOUML_ASSOC_0x1f416_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x20fc5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x1f496_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x1f496_0" value="*"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Estadio" xmi:id="BOUML_0x21645_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="nome" xmi:id="BOUML_0x220c5_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_2"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="localizacao" xmi:id="BOUML_0x22145_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_2"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="lotacao" xmi:id="BOUML_0x221c5_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x21fc5_0" visibility="private" association="BOUML_ASSOC_0x21f45_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x214c5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x21fc5_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x21fc5_0" value="*"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x22345_0" visibility="private" association="BOUML_ASSOC_0x22345_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x216c5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x22345_0" value="1"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x22345_0" value="1"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Selecao" xmi:id="BOUML_0x215c5_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="vitorias" xmi:id="BOUML_0x21ec5_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="derrotas" xmi:id="BOUML_0x21f45_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="empates" xmi:id="BOUML_0x21fc5_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="pontos" xmi:id="BOUML_0x22045_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x22245_0" visibility="private" association="BOUML_ASSOC_0x22245_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x214c5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x22245_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x22245_0" value="*"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x1f502_0" visibility="private" association="BOUML_ASSOC_0x1f502_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x20fc5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x1f502_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x1f502_0" value="*"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x1f682_0" visibility="private" association="BOUML_ASSOC_0x1f602_0" aggregation="composite">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x21545_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x1f682_0" value="1"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x1f682_0" value="1"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Grupo" xmi:id="BOUML_0x21545_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="designacao" xmi:id="BOUML_0x21e45_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_3"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x1f602_0" visibility="private" association="BOUML_ASSOC_0x1f602_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x215c5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x1f602_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x1f602_0" value="*"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Jogo" xmi:id="BOUML_0x214c5_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="fase" xmi:id="BOUML_0x21cc5_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="data" xmi:id="BOUML_0x21d45_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="resultado" xmi:id="BOUML_0x21dc5_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x21f45_0" visibility="private" association="BOUML_ASSOC_0x21f45_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x21645_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x21f45_0" value="1"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x21f45_0" value="1"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x222c5_0" visibility="private" association="BOUML_ASSOC_0x22245_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x215c5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x222c5_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x222c5_0" value="*"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x22b16_0" visibility="private" association="BOUML_0x20d96_4" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x213c5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x22b16_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x22b16_0" value="*"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Convocado" xmi:id="BOUML_0x213c5_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="num_participacoes" xmi:id="BOUML_0x21bc5_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x22b96_0" visibility="private" association="BOUML_0x20d96_4" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x214c5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x22b96_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x22b96_0" value="*"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x1f417_0" visibility="private" association="BOUML_0x210c5_4" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x20fc5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x1f417_0" value="1"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x1f417_0" value="1"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Cartao_Amarelo" xmi:id="BOUML_0x21345_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="total_jogo" xmi:id="BOUML_0x21b45_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="tempo_Jogo" xmi:id="BOUML_0x1f416_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_4"/>
+					</ownedAttribute>
+					<generalization xmi:type="uml:Generalization" xmi:id="BOUML_0x25016_0" general="BOUML_0x20d96_4"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Cartao_Vermelho" xmi:id="BOUML_0x212c5_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="total_jogo" xmi:id="BOUML_0x21ac5_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="tempo_jogo" xmi:id="BOUML_0x1f596_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_4"/>
+					</ownedAttribute>
+					<generalization xmi:type="uml:Generalization" xmi:id="BOUML_0x24d16_0" general="BOUML_0x20d96_4"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Substituicao" xmi:id="BOUML_0x21245_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="nome_entrada" xmi:id="BOUML_0x219c5_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="nome_saida" xmi:id="BOUML_0x21a45_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="tempo_jogo" xmi:id="BOUML_0x1f516_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_4"/>
+					</ownedAttribute>
+					<generalization xmi:type="uml:Generalization" xmi:id="BOUML_0x24e16_0" general="BOUML_0x20d96_4"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Golo" xmi:id="BOUML_0x21145_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="total_golo_jogo" xmi:id="BOUML_0x217c5_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="marcador" xmi:id="BOUML_0x21845_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="equipa" xmi:id="BOUML_0x218c5_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="jogador_assistencia" xmi:id="BOUML_0x21945_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="tempo_jogo" xmi:id="BOUML_0x1f496_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_4"/>
+					</ownedAttribute>
+					<generalization xmi:type="uml:Generalization" xmi:id="BOUML_0x24f16_0" general="BOUML_0x20d96_4"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:AssociationClass" name="Estado" xmi:id="BOUML_0x210c5_4" visibility="package">
+					<memberEnd xmi:idref="BOUML_0x1f417_0"/>
+					<memberEnd xmi:idref="BOUML_0x1f497_0"/>
+					<ownedAttribute xmi:type="uml:Property" name="castigado" xmi:id="BOUML_0x215c5_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_5"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="lesionado" xmi:id="BOUML_0x21645_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_5"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="dispensado" xmi:id="BOUML_0x216c5_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_5"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="convocado" xmi:id="BOUML_0x21745_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_5"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Mundial" xmi:id="BOUML_0x21045_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="designacao" xmi:id="BOUML_0x213c5_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_2"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="edicao" xmi:id="BOUML_0x21445_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="num_selecoes" xmi:id="BOUML_0x214c5_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="orcamento" xmi:id="BOUML_0x21545_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x211c5_0" visibility="private" association="BOUML_ASSOC_0x211c5_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x216c5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x211c5_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x211c5_0" value="*"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x212c5_0" visibility="private" association="BOUML_ASSOC_0x212c5_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x21745_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x212c5_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x212c5_0" value="*"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x1f482_0" visibility="private" association="BOUML_0x21945_4" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x20fc5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x1f482_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x1f482_0" value="*"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Jogador" xmi:id="BOUML_0x20fc5_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="posicao" xmi:id="BOUML_0x210c5_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="clube_atual" xmi:id="BOUML_0x21245_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="num_internacionalizacoes" xmi:id="BOUML_0x212c5_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="num_camisola" xmi:id="BOUML_0x21345_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<generalization xmi:type="uml:Generalization" xmi:id="BOUML_0x20f45_0" general="BOUML_0x20dc5_4"/>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x1f402_0" visibility="private" association="BOUML_0x21945_4" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x21045_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x1f402_0" value="*"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x1f402_0" value="*"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x1f582_0" visibility="private" association="BOUML_ASSOC_0x1f502_0" aggregation="shared">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x215c5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x1f582_0" value="1"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x1f582_0" value="1"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x1f416_0" visibility="private" association="BOUML_ASSOC_0x1f416_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x216c5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x1f416_0" value="1"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x1f416_0" value="1"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x1f497_0" visibility="private" association="BOUML_0x210c5_4" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x213c5_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x1f497_0" value="1"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x1f497_0" value="1"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Presidente" xmi:id="BOUML_0x20f45_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="ano_nomeacao" xmi:id="BOUML_0x21045_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<generalization xmi:type="uml:Generalization" xmi:id="BOUML_0x20ec5_0" general="BOUML_0x20dc5_4"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Tecnico" xmi:id="BOUML_0x20ec5_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="funcao" xmi:id="BOUML_0x20f45_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_2"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="anos_experiencia" xmi:id="BOUML_0x20fc5_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<generalization xmi:type="uml:Generalization" xmi:id="BOUML_0x20e45_0" general="BOUML_0x20dc5_4"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Outro_Elemento" xmi:id="BOUML_0x20e45_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="funcao" xmi:id="BOUML_0x20ec5_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_2"/>
+					</ownedAttribute>
+					<generalization xmi:type="uml:Generalization" xmi:id="BOUML_0x20dc5_0" general="BOUML_0x20dc5_4"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Elemento" xmi:id="BOUML_0x20dc5_4" visibility="package">
+					<ownedAttribute xmi:type="uml:Property" name="numero" xmi:id="BOUML_0x20dc5_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="nome" xmi:id="BOUML_0x20e45_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_2"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x225c5_0" visibility="private" association="BOUML_ASSOC_0x22545_0" aggregation="composite">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x21745_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x225c5_0" value="1"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x225c5_0" value="1"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="idade" xmi:id="BOUML_0x1f417_1" visibility="private">
+						<type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.3/uml.xml#Integer"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" name="naturalidade" xmi:id="BOUML_0x1f497_1" visibility="private">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_datatype_0"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Class" name="Patrocinador_Oficial" xmi:id="BOUML_0x1f416_4" visibility="package">
+					<generalization xmi:type="uml:Generalization" xmi:id="BOUML_0x22996_0" general="BOUML_0x21845_4"/>
+					<ownedAttribute xmi:type="uml:Property" name="" xmi:id="BOUML_0x22a16_0" visibility="private" association="BOUML_ASSOC_0x22a16_0" aggregation="none">
+						<type xmi:type="uml:Class" xmi:idref="BOUML_0x21745_4"/>
+						<lowerValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_L_0x22a16_0" value="1"/>
+						<upperValue xmi:type="uml:LiteralString" xmi:id="BOUML_MULTIPLICITY_U_0x22a16_0" value="1"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:AssociationClass" name="Estatistica" xmi:id="BOUML_0x20d96_4" visibility="package">
+					<memberEnd xmi:idref="BOUML_0x22b16_0"/>
+					<memberEnd xmi:idref="BOUML_0x22b96_0"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="BOUML_ASSOC_0x22545_0" name="composicao" visibility="private">
+					<memberEnd xmi:idref="BOUML_0x22545_0"/>
+					<memberEnd xmi:idref="BOUML_0x225c5_0"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="BOUML_ASSOC_0x20e16_0" name="patrocinio" visibility="private">
+					<memberEnd xmi:idref="BOUML_0x20e16_0"/>
+					<memberEnd xmi:idref="BOUML_0x20e96_0"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="BOUML_ASSOC_0x22445_0" name="pais_comitiva" visibility="private">
+					<memberEnd xmi:idref="BOUML_0x22445_0"/>
+					<memberEnd xmi:idref="BOUML_0x224c5_0"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="BOUML_ASSOC_0x22345_0" name="organizacao" visibility="private">
+					<memberEnd xmi:idref="BOUML_0x22345_0"/>
+					<memberEnd xmi:idref="BOUML_0x223c5_0"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="BOUML_ASSOC_0x22245_0" name="ocorrencia" visibility="private">
+					<memberEnd xmi:idref="BOUML_0x22245_0"/>
+					<memberEnd xmi:idref="BOUML_0x222c5_0"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="BOUML_ASSOC_0x1f502_0" name="selecionado" visibility="private">
+					<memberEnd xmi:idref="BOUML_0x1f502_0"/>
+					<memberEnd xmi:idref="BOUML_0x1f582_0"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="BOUML_ASSOC_0x1f602_0" name="grupo" visibility="private">
+					<memberEnd xmi:idref="BOUML_0x1f602_0"/>
+					<memberEnd xmi:idref="BOUML_0x1f682_0"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="BOUML_ASSOC_0x21f45_0" name="localizacao" visibility="private">
+					<memberEnd xmi:idref="BOUML_0x21f45_0"/>
+					<memberEnd xmi:idref="BOUML_0x21fc5_0"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="BOUML_ASSOC_0x211c5_0" name="organizador" visibility="private">
+					<memberEnd xmi:idref="BOUML_0x211c5_0"/>
+					<memberEnd xmi:idref="BOUML_0x21245_0"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="BOUML_ASSOC_0x212c5_0" name="mundial_comitiva" visibility="private">
+					<memberEnd xmi:idref="BOUML_0x212c5_0"/>
+					<memberEnd xmi:idref="BOUML_0x21345_0"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="BOUML_ASSOC_0x1f416_0" name="jogador_pais" visibility="private">
+					<memberEnd xmi:idref="BOUML_0x1f416_0"/>
+					<memberEnd xmi:idref="BOUML_0x1f496_0"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="BOUML_ASSOC_0x22a16_0" name="principal" visibility="private">
+					<memberEnd xmi:idref="BOUML_0x22a16_0"/>
+					<memberEnd xmi:idref="BOUML_0x22a96_0"/>
+				</packagedElement>
+			</packagedElement>
+			<packagedElement xmi:type="uml:DataType" xmi:id="BOUML_datatype_5" name="boolean"/>
+			<packagedElement xmi:type="uml:DataType" xmi:id="BOUML_datatype_3" name="char"/>
+			<packagedElement xmi:type="uml:DataType" xmi:id="BOUML_datatype_4" name="time"/>
+			<packagedElement xmi:type="uml:DataType" xmi:id="BOUML_datatype_1" name="varchar(10)"/>
+			<packagedElement xmi:type="uml:DataType" xmi:id="BOUML_datatype_0" name="varchar(20)"/>
+			<packagedElement xmi:type="uml:DataType" xmi:id="BOUML_datatype_2" name="varchar(50)"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>
